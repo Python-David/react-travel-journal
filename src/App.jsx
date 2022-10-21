@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Header from "./components/Header"
 import Card from "./components/Card"
-import Line from "./components/Line"
 import data from "./data.js"
 
 function App() {
@@ -20,8 +19,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Card />
-      <Line />
+      {cards}
     </div>
   )
 }
